@@ -7,7 +7,7 @@
 
 function getAge(inputString){
 // return the girl's correct age as an integer. Happy coding :)
-   return parseInt(inputString[0], 10);  // берем первый символ строки, а 10 - это превращает этот символ в число
+   return parseInt(inputString);
 }
 
 console.log(getAge('5 years old'));
