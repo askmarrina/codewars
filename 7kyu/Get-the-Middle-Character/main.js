@@ -8,17 +8,28 @@
 // "middle" --> "dd"
 // "A" --> "A"
 
-function getMiddle(word) {
-    //Code goes here!
+// function getMiddle(word) {
+//     //Code goes here!
+//
+//     let length = word.length;
+//     let mid = Math.floor(word.length / 2)
+//     if (word.length %2 === 0) {
+//         return word[mid - 1] + word[mid];
+//     } else {
+//         return word[mid];
+//     }
+//     // return '';
+// }
+//
+// console.log(getMiddle('A'))
 
-    let length = word.length;
-    let mid = Math.floor(word.length / 2)
-    if (word.length %2 === 0) {
-        return word[mid - 1] + word[mid];
-    } else {
-        return word[mid];
-    }
-    // return '';
+
+
+
+
+let price = 240
+function changePrice() {
+    let price = 300
 }
-
-console.log(getMiddle('A'))
+changePrice()
+console.log(price)
